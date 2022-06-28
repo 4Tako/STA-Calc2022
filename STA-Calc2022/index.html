@@ -1,55 +1,51 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <link rel="stylesheet" href="style.css">
-  <title>電卓</title>
+    <link rel="stylesheet" href="style.css">
+    <title>電卓</title>
 </head>
 <body>
-  <form name="calculator">
-    <table>
-      <tr>
-        <td colspan="4">
-          <input type="text" class="display" name="display" value="" disabled>
-        </td>
-      </tr>
-      <tr>
-        <td><input type="button" value="π" onclick="get_calc(this)"></td>
-        <td><input type="button" value="%" onclick="get_calc(this)"></td>
-        <td><input type="button" value="√" onclick="get_calc(this)"></td>
-        <td><input type="button" value="AC" class="equal" onclick="get_calc(this)"></td>
-      </tr>
-      <tr>
-        <td><input type="button" value="(" onclick="get_calc(this)"></td>
-        <td><input type="button" value=")" onclick="get_calc(this)"></td>
-        <td><input type="button" value="+/-" onclick="get_calc(this)"></td>
-        <td><input type="button" value="÷" class="operator" name="div_btn" onclick="get_calc(this)"></td>
-      </tr>
-      <tr>
-        <td><input type="button" value="7" onclick="get_calc(this)"></td>
-        <td><input type="button" value="8" onclick="get_calc(this)"></td>
-        <td><input type="button" value="9" onclick="get_calc(this)"></td>
-        <td><input type="button" value="×" class="operator" name="multi_btn" onclick="get_calc(this)"></td>
-      </tr>
-      <tr>
-        <td><input type="button" value="4" onclick="get_calc(this)"></td>
-        <td><input type="button" value="5" onclick="get_calc(this)"></td>
-        <td><input type="button" value="6" onclick="get_calc(this)"></td>
-        <td><input type="button" value="-" class="operator" onclick="get_calc(this)"></td>
-      </tr>
-      <tr>
-        <td><input type="button" value="1" onclick="get_calc(this)"></td>
-        <td><input type="button" value="2" onclick="get_calc(this)"></td>
-        <td><input type="button" value="3" onclick="get_calc(this)"></td>
-        <td><input type="button" value="+" class="operator" onclick="get_calc(this)"></td>
-      </tr>
-      <tr>
-        <td><input type="button" value="0" onclick="get_calc(this)"></td>
-        <td><input type="button" value="00" onclick="get_calc(this)"></td>
-        <td><input type="button" value="." onclick="get_calc(this)"></td>
-        <td><input type="button" value="=" class="operator" onclick="get_calc(this)"></td>
-      </tr>
-    </table>
-    <script src="script.js"></script>
-  </form>
+    <form name="calculator">
+        <table>
+            <tr>
+                <td colspan="4">
+                    <input type="text" class="display" name="display" value="" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="√" onclick="get_calc(this)"></td>
+                <td><input type="button" value="(" onclick="get_calc(this)"></td>
+                <td><input type="button" value=")" onclick="get_calc(this)"></td>
+                <td><input type="button" value="AC" class="equal" onclick="get_calc(this)"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="π" onclick="get_calc(this)"></td>
+                <td><input type="button" value="+/-" onclick="get_calc(this)"></td>
+                <td><input type="button" value="%" onclick="get_calc(this)"></td>
+                <td><input type="button" value="÷" class="operator" name="div_btn" onclick="get_calc(this)"></td>
+            </tr>            <tr>
+                <td><input type="button" value="7" onclick="get_calc(this)"></td>
+                <td><input type="button" value="8" onclick="get_calc(this)"></td>
+                <td><input type="button" value="9" onclick="get_calc(this)"></td>
+                <td><input type="button" value="×" class="operator" name="multi_btn" onclick="get_calc(this)"></td>
+            </tr>            <tr>
+                <td><input type="button" value="4" onclick="get_calc(this)"></td>
+                <td><input type="button" value="5" onclick="get_calc(this)"></td>
+                <td><input type="button" value="6" onclick="get_calc(this)"></td>
+                <td><input type="button" value="-" class="operator" onclick="get_calc(this)"></td>
+            </tr>            <tr>
+                <td><input type="button" value="1" onclick="get_calc(this)"></td>
+                <td><input type="button" value="2" onclick="get_calc(this)"></td>
+                <td><input type="button" value="3" onclick="get_calc(this)"></td>
+                <td><input type="button" value="+" class="operator" onclick="get_calc(this)"></td>
+            </tr>            <tr>
+                <td><input type="button" value="0" onclick="get_calc(this)"></td>
+                <td><input type="button" value="00" onclick="get_calc(this)"></td>
+                <td><input type="button" value="." onclick="get_calc(this)"></td>
+                <td><input type="button" value="=" class="operator" onclick="get_calc(this)"></td>
+            </tr>
+        </table>
+        <script src="script.js"></script>
+    </form>
 </body>
 </html>
